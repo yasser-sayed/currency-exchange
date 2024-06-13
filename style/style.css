@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+body {
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(38, 33, 58) !important;
+  height: 11%;
+  color: lightcyan;
+}
+
+.main_design {
+  height: 89%;
+}
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}

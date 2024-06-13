@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/all.min.css" />
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Change</title>
+  </head>
+  <body>
+    <nav class="header d-flex justify-content-evenly align-items-center py-3">
+      <img
+        src="resources/WhatsApp Image 2024-02-22 at 22.53.13_d6ad7d28.jpg"
+        width="5%"
+        alt=""
+      />
+      <h3 class="text-warning">EXCHANGE CURRENCY APP.</h3>
+    </nav>
+
+    <section
+      class="main_design bg-secondary d-flex justify-content-center align-items-center"
+    >
+      <div class="exchange-app bg-dark text-light p-5 rounded">
+        <div
+          class="top d-flex mb-5 flex-column justify-content-center align-items-baseline"
+        >
+          <h1 class="text-secondary">Amount</h1>
+          <div class="input-div w-100">
+            <input
+              placeholder="1 by default"
+              type="text"
+              name=""
+              id=""
+              class="amount-inp bg-transparent border-0 border-bottom border-1 border-info text-light fw-bold px-2 w-75"
+            />
+            <button class="bg-transparent border-0 text-info ps-3 swap">
+              <i class="fa-solid fa-right-left fa-xl"></i>
+            </button>
+          </div>
+        </div>
+        <div
+          class="bottom d-flex justify-content-center align-items-center flex-column gap-4"
+        >
+          <div class="first-select position-relative w-100">
+            <img
+              src="https://flagsapi.com/AE/shiny/32.png"
+              alt=""
+              class="img-from position-absolute top-0 start-0"
+            />
+            <select
+              name=""
+              id=""
+              class="select-from w-100 bg-black text-light ps-5"
+            ></select>
+          </div>
+          <div class="second-select position-relative w-100">
+            <img
+              src="https://flagsapi.com/AE/shiny/32.png"
+              alt=""
+              class="img-to position-absolute top-0 start-0"
+            />
+            <select
+              name=""
+              id=""
+              class="select-to w-100 bg-black text-light ps-5"
+            ></select>
+          </div>
+          <button value="w" class="btn btn-outline-info w-100 conv-btn">
+            Convert
+          </button>
+        </div>
+        <div
+          class="result-div d-flex justify-content-center align-items-center"
+        >
+          <h1 class="result pt-5"></h1>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js" type="module"></script>
+    <script src="js/data.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
